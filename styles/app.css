@@ -1,0 +1,23 @@
+header, .hero {
+  background-image: url(../img/bg-walpaper.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.479) 19.27%,
+      rgba(0, 0, 0, 0) 29.17%
+    ),
+    url(../img/bg-walpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.avatar-icon {
+  display: none;
+}
+
+.avatar:hover ~ .avatar-icon {
+  transition: 3s ease-out cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: block;
+}
+.details {
+  background-color: rgba(0, 0, 0, 0.479);
+}
